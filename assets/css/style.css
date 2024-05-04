@@ -192,7 +192,7 @@ nav{
 
     .container-grid{
         display: grid;
-        height: 100%;
+        height: 100vh;
         grid-template-columns: 25% 75%;
 
         grid-template-areas:
