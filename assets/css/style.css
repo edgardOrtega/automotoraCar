@@ -151,7 +151,10 @@ nav{
     }
     .nag{
         display: flex;
-        gap: 1rem;
+    }
+    .nag p{
+        margin: 0px;
+        padding: 0.4rem;
     }
     main{
         display: grid;
@@ -186,8 +189,10 @@ nav{
 }
 
 @media (min-width:992px) {
+
     .container-grid{
         display: grid;
+        height: 100%;
         grid-template-columns: 25% 75%;
 
         grid-template-areas:
