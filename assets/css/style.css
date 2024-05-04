@@ -247,5 +247,19 @@ nav{
         width: 90%;
         border-radius: 0.4rem;
     }
+    .paginas {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background:gray;
+        justify-content: center;
+        margin: 0;
+    }
+
 }
 
